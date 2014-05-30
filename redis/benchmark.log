@@ -2,19 +2,19 @@
   key_size: 20,
   value_size: 100,
   flavor: 'redis',
-  run_time_milliseconds: 35 }
+  run_time_milliseconds: 56 }
 { run_size: '1000',
   key_size: 20,
   value_size: 100,
   flavor: 'redis',
-  run_time_milliseconds: 64 }
+  run_time_milliseconds: 51 }
 { run_size: '10000',
   key_size: 20,
   value_size: 100,
   flavor: 'redis',
-  run_time_milliseconds: 357 }
+  run_time_milliseconds: 361 }
 { run_size: '100000',
   key_size: 20,
   value_size: 100,
   flavor: 'redis',
-  run_time_milliseconds: 3714 }
+  run_time_milliseconds: 3609 }

@@ -1,7 +1,7 @@
 #!/bin/bash
 rm results.log
 echo "Key/Value Benchmark Starting..."
-for db in "cache" "fdb" "mongo" "redis"
+for db in "caché" "fdb" "mongo" "redis"
 do 
 	echo $db
 	cd $db

@@ -1,25 +1,25 @@
-cache results
+caché results
 -------------
 { run_size: '100',
   key_size: 20,
   value_size: 100,
   flavor: 'cache',
-  run_time_milliseconds: 21 }
+  run_time_milliseconds: 24 }
 { run_size: '1000',
   key_size: 20,
   value_size: 100,
   flavor: 'cache',
-  run_time_milliseconds: 32 }
+  run_time_milliseconds: 28 }
 { run_size: '10000',
   key_size: 20,
   value_size: 100,
   flavor: 'cache',
-  run_time_milliseconds: 169 }
+  run_time_milliseconds: 159 }
 { run_size: '100000',
   key_size: 20,
   value_size: 100,
   flavor: 'cache',
-  run_time_milliseconds: 1804 }
+  run_time_milliseconds: 1662 }
 
 fdb results
 -------------
@@ -27,22 +27,22 @@ fdb results
   key_size: 20,
   value_size: 100,
   flavor: 'fdb',
-  run_time_milliseconds: 42 }
+  run_time_milliseconds: 83 }
 { run_size: '1000',
   key_size: 20,
   value_size: 100,
   flavor: 'fdb',
-  run_time_milliseconds: 70 }
+  run_time_milliseconds: 71 }
 { run_size: '10000',
   key_size: 20,
   value_size: 100,
   flavor: 'fdb',
-  run_time_milliseconds: 473 }
+  run_time_milliseconds: 441 }
 { run_size: '100000',
   key_size: 20,
   value_size: 100,
   flavor: 'fdb',
-  run_time_milliseconds: 4627 }
+  run_time_milliseconds: 4313 }
 
 mongo results
 -------------
@@ -50,22 +50,22 @@ mongo results
   key_size: 20,
   value_size: 100,
   flavor: 'mongo',
-  run_time_milliseconds: 223 }
+  run_time_milliseconds: 410 }
 { run_size: '1000',
   key_size: 20,
   value_size: 100,
   flavor: 'mongo',
-  run_time_milliseconds: 387 }
+  run_time_milliseconds: 357 }
 { run_size: '10000',
   key_size: 20,
   value_size: 100,
   flavor: 'mongo',
-  run_time_milliseconds: 2106 }
+  run_time_milliseconds: 1951 }
 { run_size: '100000',
   key_size: 20,
   value_size: 100,
   flavor: 'mongo',
-  run_time_milliseconds: 32486 }
+  run_time_milliseconds: 32333 }
 
 redis results
 -------------
@@ -73,20 +73,20 @@ redis results
   key_size: 20,
   value_size: 100,
   flavor: 'redis',
-  run_time_milliseconds: 35 }
+  run_time_milliseconds: 56 }
 { run_size: '1000',
   key_size: 20,
   value_size: 100,
   flavor: 'redis',
-  run_time_milliseconds: 64 }
+  run_time_milliseconds: 51 }
 { run_size: '10000',
   key_size: 20,
   value_size: 100,
   flavor: 'redis',
-  run_time_milliseconds: 357 }
+  run_time_milliseconds: 361 }
 { run_size: '100000',
   key_size: 20,
   value_size: 100,
   flavor: 'redis',
-  run_time_milliseconds: 3714 }
+  run_time_milliseconds: 3609 }
 
