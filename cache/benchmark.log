@@ -1,0 +1,20 @@
+{ run_size: '100',
+  key_size: 20,
+  value_size: 100,
+  flavor: 'cache',
+  run_time_milliseconds: 21 }
+{ run_size: '1000',
+  key_size: 20,
+  value_size: 100,
+  flavor: 'cache',
+  run_time_milliseconds: 32 }
+{ run_size: '10000',
+  key_size: 20,
+  value_size: 100,
+  flavor: 'cache',
+  run_time_milliseconds: 169 }
+{ run_size: '100000',
+  key_size: 20,
+  value_size: 100,
+  flavor: 'cache',
+  run_time_milliseconds: 1804 }

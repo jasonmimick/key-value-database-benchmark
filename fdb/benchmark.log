@@ -1,0 +1,20 @@
+{ run_size: '100',
+  key_size: 20,
+  value_size: 100,
+  flavor: 'fdb',
+  run_time_milliseconds: 42 }
+{ run_size: '1000',
+  key_size: 20,
+  value_size: 100,
+  flavor: 'fdb',
+  run_time_milliseconds: 70 }
+{ run_size: '10000',
+  key_size: 20,
+  value_size: 100,
+  flavor: 'fdb',
+  run_time_milliseconds: 473 }
+{ run_size: '100000',
+  key_size: 20,
+  value_size: 100,
+  flavor: 'fdb',
+  run_time_milliseconds: 4627 }

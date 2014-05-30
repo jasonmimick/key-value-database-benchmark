@@ -1,0 +1,19 @@
+{
+    "name": "fdb",
+    "version": "2.0.0",
+    "author": "FoundationDB <distribution@foundationdb.com> (https://foundationdb.com)",
+    "description": "Node.js bindings for the FoundationDB database",
+    "keywords": [ "FoundationDB", "database", "NoSQL", "ACID" ],
+    "homepage": "https://foundationdb.com",
+    "license": "MIT",
+    "main": "./lib/fdb.js",
+    "cpu": [ "x64" ],
+    "dependencies": {
+        "semver": ">= 1.1.4"
+    },
+    "engineStrict": true,
+    "private": true,
+    "engines": {
+        "node" : "0.8.x || 0.10.x"
+    }
+}
