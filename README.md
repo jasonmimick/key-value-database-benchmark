@@ -1,5 +1,5 @@
-Key/Value Benchmarks
---------------------
+Key/Value Database Benchmark
+----------------------------
 
 The project contains a simple benchmark against a collection of modern "noSQL" databases.
 The benchmark inserts a number of key/value pairs and times how long it takes.
@@ -25,7 +25,7 @@ Setup
 To run this locally, you need to clone this repo. Then install each flavor
 of database - take default options for everything.
 
-Each db flavor has a folder with benchmark.js. Command functions shared by all the 
+Each db flavor has a folder with benchmark.js. Common functions shared by all the 
 test are stored in [./benchmark.js](./benchmark.js).
 
 You can invoke a test like this:
