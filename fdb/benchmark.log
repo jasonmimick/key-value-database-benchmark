@@ -2,19 +2,19 @@
   key_size: 20,
   value_size: 100,
   flavor: 'fdb',
-  run_time_milliseconds: 83 }
+  run_time_milliseconds: 38 }
 { run_size: '1000',
   key_size: 20,
   value_size: 100,
   flavor: 'fdb',
-  run_time_milliseconds: 71 }
+  run_time_milliseconds: 79 }
 { run_size: '10000',
   key_size: 20,
   value_size: 100,
   flavor: 'fdb',
-  run_time_milliseconds: 441 }
+  run_time_milliseconds: 542 }
 { run_size: '100000',
   key_size: 20,
   value_size: 100,
   flavor: 'fdb',
-  run_time_milliseconds: 4313 }
+  run_time_milliseconds: 5259 }

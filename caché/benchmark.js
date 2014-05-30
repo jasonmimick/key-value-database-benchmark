@@ -9,7 +9,7 @@ var connection = { path : '/Users/jmimick/caches/pluto/mgr',
 
 var cache = new cache_node.Cache();
 var benchmark = new benchmark.benchmark();
-var options = benchmark.parse_args('cache');
+var options = benchmark.parse_args('caché');
 
 cache.open( connection, function(err,res) {
 

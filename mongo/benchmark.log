@@ -2,19 +2,19 @@
   key_size: 20,
   value_size: 100,
   flavor: 'mongo',
-  run_time_milliseconds: 410 }
+  run_time_milliseconds: 229 }
 { run_size: '1000',
   key_size: 20,
   value_size: 100,
   flavor: 'mongo',
-  run_time_milliseconds: 357 }
+  run_time_milliseconds: 410 }
 { run_size: '10000',
   key_size: 20,
   value_size: 100,
   flavor: 'mongo',
-  run_time_milliseconds: 1951 }
+  run_time_milliseconds: 2181 }
 { run_size: '100000',
   key_size: 20,
   value_size: 100,
   flavor: 'mongo',
-  run_time_milliseconds: 32333 }
+  run_time_milliseconds: 35294 }
